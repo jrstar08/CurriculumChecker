@@ -1,0 +1,43 @@
+.container1 {
+    width: 100%;
+    position: fixed;
+}
+#launchPad {
+    float:left;
+    width: 30%;
+    height: 10px;
+    overflow: auto;
+    position: fixed;
+}
+#dropZone {
+    float:right;
+    width: 60%;
+}
+.card { 
+    width: 200px;
+    padding: 5px 10px;
+    margin:10px;
+    border:1px solid #ccc;
+    background-color: #eaeaea;
+    float: left;
+}
+.stack {
+    width: 300px;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+    margin: 1%;
+    float: left;
+}
+.stackHdr {
+    background-color: #eaeaea;
+    border: 1px solid #fff;
+    padding: 15px;
+}
+.stackDrop1, .stackDrop2, .stackDrop3, .stackDrop4 {
+    min-height:200px;
+    width: 500px;
+    padding: 15px;
+}
+.clear_both{
+    clear: both;
+}
